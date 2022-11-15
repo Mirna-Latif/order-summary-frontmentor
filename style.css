@@ -1,0 +1,133 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    position: absolute;
+    top: 0; 
+}
+main{
+    position: relative;
+    background-color: #fff;
+    max-width: 390px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0/ 7%);
+}
+main img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.text{
+  text-align: center;
+  margin: 20px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.text h1{
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: hsl(223, 47%, 23%);
+}
+.text p{
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+/* ======================================================================== */
+.price{
+  background-color: hsl(225, 100%, 98%);
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.price img{
+  margin: 20px;
+}
+.price .details {
+  margin-right: 50px;
+  
+}
+.price .details h6{
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+.price .details p{
+  font-size: 13px;
+  color: hsl(224, 23%, 55%);
+  padding-top: 5px;
+}
+.price a{
+  margin: 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.price a:hover{
+  text-decoration: none;
+}
+/* ====================================================== */
+.button{
+  text-align: center;
+  
+}
+.button .one {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  display: block;
+  margin: 20px auto;
+  border:none;
+  padding: 15px 90px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 16px 0 hsl(224, 23%, 55%), 0 2px 10px 0 hsl(224, 23%, 55%);
+}
+.button .one:hover{
+  background-color: hsl(224, 23%, 55%);
+}
+.button .two{
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin: 0 auto 30px;
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(224, 23%, 55%);
+  font-size: 11px;
+  background-color: #fff;
+}
+.button .two:hover{
+  color: black;
+  font-weight: 900;
+}
+@media only screen and (max-width: 628px){
+  body{
+    background-image: url(images/pattern-background-mobile.svg);
+  }
+  main{
+    margin: 20px;
+    
+  }
+}
